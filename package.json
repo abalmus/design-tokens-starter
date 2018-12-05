@@ -1,0 +1,44 @@
+{
+  "name": "@abalmus/design-tokens-starter",
+  "description": "Design tokens platform to maintain project design, inspired by salesforce-ux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "babel-node ./node_modules/gulp/bin/gulp.js",
+    "build": "npm run gulp -- build",
+    "dist": "npm run gulp -- dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abalmus/design-tokens-starter.git"
+  },
+  "keywords": [
+    "design",
+    "tokens",
+    "project",
+    "system"
+  ],
+  "author": "Andrei Balmus <abalmush@gmail.com> (http://abalmus.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abalmus/design-tokens-starter/issues"
+  },
+  "homepage": "https://github.com/abalmus/design-tokens-starter#readme",
+  "devDependencies": {
+    "async": "^2.6.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "del": "^3.0.0",
+    "gulp": "4.0.0",
+    "gulp-theo": "1.0.0-alpha.5",
+    "gulp-util": "^3.0.8",
+    "gulp-yaml-validate": "^1.0.2",
+    "lodash": "^4.17.10",
+    "path": "^0.12.7",
+    "theo": "git+https://github.com/abalmus/theo.git",
+    "through2": "^2.0.3",
+    "vinyl": "^2.2.0"
+  }
+}

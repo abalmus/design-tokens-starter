@@ -1,0 +1,24 @@
+
+$theme-map: (
+  'spacing-x-small': (0.5rem),
+  'spacing-xxx-small': (0.125rem),
+  /* Default bottom spacing between sections for large */
+  'section-bottom-margin-large': (2.5rem),
+  'spacing-xx-small': (0.25rem),
+  'border-width-thin': (1px),
+  /* Default bottom spacing between all standard components for small */
+  'component-bottom-margin-small': (1.5rem),
+  'spacing-small': (0.75rem),
+  /* Default bottom spacing between sections for small */
+  'section-bottom-margin-small': (2rem),
+  'spacing-extra-large': (5rem),
+  'border-width-thick': (2px),
+  'spacing-medium': (1rem),
+  'spacing-none': (0),
+  'spacing-x-large': (2rem),
+  'spacing-xxx-large': (3rem),
+  'spacing-xx-large': (2.5rem),
+  /* Default bottom spacing between all standard components for large */
+  'component-bottom-margin-large': (2rem),
+  'spacing-large': (1.5rem),
+);

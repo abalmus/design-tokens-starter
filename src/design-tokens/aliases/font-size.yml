@@ -1,0 +1,22 @@
+aliases:
+  FONT_SIZE_1: "0.5rem"         # Small: 7px       Medium: 8px      Large: 8px
+  FONT_SIZE_2: "0.5625rem"      # Small: 8px       Medium: 9px      Large: 9px
+  FONT_SIZE_3: "0.625rem"       # Small: 9px       Medium: 10px     Large: 10px
+  FONT_SIZE_4: "0.6875rem"      # Small: 10px      Medium: 11px     Large: 11px
+  FONT_SIZE_5: "0.75rem"        # Small: 10.5px    Medium: 12px     Large: 12px
+  FONT_SIZE_6: "0.8125rem"      # Small: 11px      Medium: 13px     Large: 13px
+  FONT_SIZE_7: "0.75rem"       # Small: 12px      Medium: 14px     Large: 14px
+  FONT_SIZE_8: "0.9375rem"      # Small: 13px      Medium: 15px     Large: 15px
+  FONT_SIZE_9: "1rem"           # Small: 14px      Medium: 16px     Large: 16px
+  FONT_SIZE_10: "1.125rem"      # Small: 15.75px   Medium: 18px     Large: 18px
+  FONT_SIZE_11: "1.25rem"       # Small: 17.5px    Medium: 20px     Large: 20px
+  FONT_SIZE_12: "1.3125rem"     # Small: 18px      Medium: 21px     Large: 21px
+  FONT_SIZE_13:	"1.375rem"      # Small: 19px      Medium: 22px     Large: 22px
+  FONT_SIZE_14:	"1.5rem"        # Small: 21px      Medium: 24px     Large: 24px
+  FONT_SIZE_15:	"1.625rem"      # Small: 22px      Medium: 26px     Large: 26px
+  FONT_SIZE_16:	"1.75rem"       # Small: 24.5px    Medium: 28px     Large: 28px
+  FONT_SIZE_17:	"2rem"          # Small: 28px      Medium: 32px     Large: 32px
+  FONT_SIZE_18:	"2.125rem"      # Small: 30px      Medium: 34px     Large: 34px
+  FONT_SIZE_19:	"2.25rem"       # Small: 31.5px    Medium: 36px     Large: 36px
+  FONT_SIZE_20:	"2.375rem"      # Small: 33px      Medium: 42px     Large: 42px
+  FONT_SIZE_21:	"2.625rem"      # Small: 42px      Medium: 48px     Large: 48px

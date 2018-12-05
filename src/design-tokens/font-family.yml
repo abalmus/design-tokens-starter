@@ -1,0 +1,21 @@
+global:
+  category: font
+  type: font
+  cssProperties:
+  - 'font'
+  - 'font-family'
+imports:
+- ./aliases/font-family.yml
+props:
+  FONT_FAMILY_TEXT_PRIMARY:
+    value: '{!PORTRAIT_TEXT_WEB_REGULAR}'
+    comment: '<b>@include font-primary()</b> or <b>font-family: $font-family-text-primary</b>'
+  FONT_FAMILY_TEXT_SECONDARY:
+    value: '{!EUCLID_REGULAR}'
+    comment: '<b>@include font-secondary()</b> or <b>font-family: $font-family-text-secondary</b>'
+  FONT_FAMILY_TEXT_SECONDARY_MEDIUM:
+    value: '{!EUCLID_MEDIUM}'
+    comment: '<b>@include font-secondary-medium()</b> or <b>font-family: $font-family-text-secondary-medium</b>'
+  FONT_FAMILY_TEXT_SECONDARY_BOLD:
+    value: '{!EUCLID_BOLD}'
+    comment: '<b>@include font-secondary-bold()</b> or <b>font-family: $font-family-text-secondary-bold</b>'

@@ -1,0 +1,12 @@
+aliases:
+  SPACING_NONE: '0' # Needs to be quoted or will be interpreted as 'false'
+  SPACING_XXX_SMALL: '0.125rem' # 2px
+  SPACING_XX_SMALL: '0.25rem' # 4px
+  SPACING_X_SMALL: '0.5rem' # 8px
+  SPACING_SMALL: '0.75rem' # 12px
+  SPACING_MEDIUM: '1rem' # 16px
+  SPACING_LARGE: '1.5rem' # 24px
+  SPACING_X_LARGE: '2rem' # 32px
+  SPACING_XX_LARGE: '2.5rem' # 40px
+  SPACING_XXX_LARGE: '3rem' # 48px
+  SPACING_EXTRA_LARGE: '5rem' # 80px
