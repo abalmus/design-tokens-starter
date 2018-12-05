@@ -8,6 +8,6 @@ const node_modules = rootPath('node_modules');
 module.exports = {
     rootPath,
     node_modules,
-    designTokens: rootPath('src'),
+    designTokens: rootPath('src/themes'),
     dist: rootPath('dist')
 };

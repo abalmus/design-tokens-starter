@@ -6,7 +6,7 @@ const _ = require('lodash');
 const path = require('path');
 const through = require('through2');
 const Vinyl = require('vinyl');
-
+const rename = require('gulp-rename');
 const paths = require('./paths');
 const distPath = path.resolve.bind(path, paths.dist);
 
@@ -23,15 +23,14 @@ let formatTransforms = _({
         'json',
         'module.js'
     ]
-})
-    .map((formats, transform) =>
-        formats.map((name) => ({
-            name: name,
-            transform: transform
-        }))
-    )
-    .flatten()
-    .value();
+}).map((formats, transform) =>
+    formats.map((name) => ({
+        name: name,
+        transform: transform
+    }))
+)
+.flatten()
+.value();
 
 export const all = (done) => {
     const convert = ({ name, transform }, done) => {
@@ -49,6 +48,9 @@ export const all = (done) => {
                     },
                 })
             )
+            .pipe(rename((path) => {
+                path.dirname = path.basename.split('.')[0];
+            }))
             .pipe(gulp.dest(path.resolve(paths.dist, 'design-tokens')))
             .on('finish', done);
     };

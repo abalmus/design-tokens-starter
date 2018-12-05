@@ -1,5 +1,5 @@
 imports:
-- ./design-tokens/spacing.yml
+- ../design-tokens/spacing.yml
 # - ./design-tokens/sizing.yml
 # - ./design-tokens/font-family.yml
 # - ./design-tokens/font-style.yml
